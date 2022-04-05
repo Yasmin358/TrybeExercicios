@@ -1,0 +1,65 @@
+ol {
+    background-color: yellow;
+}
+
+#frases:nth-child(even){
+   color: green;
+}
+
+#frases:nth-child(odd){
+    text-transform:uppercase;
+}
+
+h1, h3{
+    color: red;
+}
+
+h1 em{
+    font-size: 40px;
+    border: 1px solid;
+}
+
+li{
+    font-size: 20px;
+}
+
+#frases{
+    font-weight: bold;
+}
+
+.linguas li:nth-child(-n+3){
+    color: blue;
+}
+
+#java{
+    background-color: pink;
+}
+
+
+
+#aliados:hover:nth-child(1) a{
+    color: orange;
+    font-weight: bold;
+    
+}
+
+#aliados:hover:nth-child(2) a{
+    color: green;
+    font-weight: bold;
+   
+}
+
+#aliados:hover:nth-child(3) a{
+    color: black;
+    font-weight: bold;
+}
+
+#aliados:hover:nth-child(4) a{
+    color: yellow;
+    font-weight: bold;
+}
+
+#aliados:hover:nth-child(5) a{
+    color: green;
+    font-weight: bold;
+}
